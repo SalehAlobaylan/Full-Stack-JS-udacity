@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "prettier": "^3.3.1"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine",
+    "start": "index.ts"
   }
 }

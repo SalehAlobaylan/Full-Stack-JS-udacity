@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jasmine": "^5.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "supertest": "^7.0.0",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@types/supertest": "^6.0.2"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine"
+    
+  }
+}
