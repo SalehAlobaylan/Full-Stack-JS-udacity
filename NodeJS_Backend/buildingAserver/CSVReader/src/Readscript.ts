@@ -20,7 +20,7 @@ app.listen(port, () => {
 //define a route handler for the default home page
 //create get endpoint
 app.get('/convert', (req,res) => {
-    res.send('converting in process!');
+    res.send('converting in process!')
     csv().fromFile(inputFile).then((data) => {
         let newData = data.map( (item: {
             first_name: string; last_name: string; phone: string; }) => {
