@@ -1,0 +1,16 @@
+{
+    "dev": {
+      "driver": "pg",
+      "host": "127.0.0.1",
+      "database": "SalehDB",
+      "user": "Saleh",
+      "password": "927319"
+    },
+    "test": {
+      "driver": "pg",
+      "host": "127.0.0.1",
+      "database": "SalehDB_test",
+      "user": "Saleh_user",
+      "password": "927319"
+    }
+  }

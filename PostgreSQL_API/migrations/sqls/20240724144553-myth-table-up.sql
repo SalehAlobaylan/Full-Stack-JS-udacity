@@ -1,0 +1,1 @@
+CREATE TABLE Myth (name VARCHAR(100), type VARCHAR(59),weight integer, id SERIAL PRIMARY KEY);

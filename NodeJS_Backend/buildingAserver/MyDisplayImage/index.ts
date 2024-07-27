@@ -10,6 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Define a route handler for the default home page
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    
 });
 
 // Start the Express server
