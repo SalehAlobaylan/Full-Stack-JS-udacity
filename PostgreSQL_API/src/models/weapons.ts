@@ -5,12 +5,12 @@ export type Weapon {
     name: string;
     type: string;
     weight: number; 
-}
+} 
 
 export class WeaponStore {
     async index(): Promise<Weapon[]> {
         try {const conn = await Client.connect()
-        const sql = 'SELECT * FROM myth_eapons'
+        const sql = 'SELECT * FROM myth_weapons'
         const result = await conn.query(sql)
         conn.release()
         return result.rows
