@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './post-reader.component.css'
 })
 export class POSTREADERComponent {
-  title: string = "Posts"
+  title: string = "Posts";
 }

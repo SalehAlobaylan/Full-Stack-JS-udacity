@@ -1,4 +1,4 @@
-import { Component , OnInit} from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -9,7 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-first-app';
-  constructor() {}
-  ngOnInit(): void {}
+  title = 'second-app';
 }
